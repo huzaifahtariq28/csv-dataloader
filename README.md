@@ -43,15 +43,15 @@ Before you begin, make sure you have the following installed on your system:
 
 Create a .env file to set up your MySQL database connection details:
 
-    ```bash
-    DB_HOST=your_db_host
-    DB_USER=your_db_user
-    DB_PASS=your_db_password
-    DB_NAME=your_db_name
-    DB_PORT=your_db_port
+```bash
+DB_HOST=your_db_host
+DB_USER=your_db_user
+DB_PASS=your_db_password
+DB_NAME=your_db_name
+DB_PORT=your_db_port
 
-    CSV_PATH=absolute_address_to_your_csv_file
-    ```
+CSV_PATH=absolute_address_to_your_csv_file
+```
 
 ## Usage
 
@@ -63,9 +63,9 @@ Configure the absolute address of your csv in the .env file as explained in the 
 
 Run the application:
 
-    ```bash
-    npm start
-    ```
+```bash
+npm start
+```
 
 ## Contributing
 
