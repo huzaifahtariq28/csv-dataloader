@@ -77,7 +77,7 @@ async function processRow(row, rowIndex) {
 
 async function processCsvFile() {
   const rows = [];
-  fs.createReadStream('./data/data 100 before discount.csv')
+  fs.createReadStream(process.env.CSV_PATH)
     .pipe(csv({ separator: ';' }))
     .on('data', (row) => {
       rows.push(row);
