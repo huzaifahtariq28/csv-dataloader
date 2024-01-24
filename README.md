@@ -43,7 +43,7 @@ Before you begin, make sure you have the following installed on your system:
 
 Create a .env file to set up your MySQL database connection details:
 
-```bash
+```dotenv
 DB_HOST=your_db_host
 DB_USER=your_db_user
 DB_PASS=your_db_password
